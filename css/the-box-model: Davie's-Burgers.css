@@ -15,11 +15,12 @@ a {
 
 nav {
     text-align: center;
+    background-color: #05A8AA
 }
 
-nav img {
+.logo img {
     display: block;
-    width: 180px;
+    width: 250px;
     margin: 0 auto;
 }
 
@@ -36,7 +37,7 @@ nav span {
 }
 
 nav a {
-    color: #666666;
+    color: #FFF;
 
 }
 

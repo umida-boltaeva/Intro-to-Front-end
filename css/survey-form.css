@@ -1,0 +1,71 @@
+body {
+    background: rgb(123, 221, 208);
+    text-align: center;
+}
+
+h1 {
+    font-family: Raleway;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+#main {
+    text-align: center;
+    margin: 0 auto;
+    width: 65%;
+    padding: 5px;
+    border-radius: 5px;
+    background: rgb(255, 255, 255);
+    font-size: 25px;
+    line-height: 40px;
+    font-family: Raleway;
+}
+
+#name-label {
+    padding: 10px;
+}
+
+#name {
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#email-label {
+    padding: 10px;
+}
+
+#email {
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+#number-label {
+    padding: 10px;
+}
+
+#age {
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.row {
+    display: flex;
+}
+
+.label {
+    width: 50%;
+    text-align: right;
+}
+
+.field {
+    width: 50%;
+    text-align: left;
+}
+
+.field input {
+    width: 270px;
+}

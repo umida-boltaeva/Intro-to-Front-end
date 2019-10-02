@@ -21,6 +21,11 @@ h1 {
     font-family: Raleway;
 }
 
+#description {
+    font-size: 30px;
+    padding: 25px;
+}
+
 #name-label {
     padding: 10px;
 }
@@ -65,17 +70,18 @@ h1 {
 .label {
     width: 50%;
     text-align: right;
+    padding-left: 30px;
 }
 
 .field {
     width: 50%;
     text-align: left;
-    margin-left: 10px;
+    padding-left: 20px;
 
 }
 
 .field #age {
-    width: 270px;
+    width: 266px;
 }
 
 .field select {
@@ -90,7 +96,7 @@ h1 {
 
 .field .front {
     display: block;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .field .back {
@@ -138,3 +144,10 @@ h1 {
     100% {
         background-color: #0960ac;
     }
+}
+
+textarea {
+    border: 1px solid rgb(56, 55, 55);
+    border-radius: 4px;
+    margin-top: 12px;
+}

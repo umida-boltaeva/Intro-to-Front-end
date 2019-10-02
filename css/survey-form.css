@@ -29,6 +29,8 @@ h1 {
     font-size: 20px;
     padding: 10px;
     margin-bottom: 15px;
+    border: 1px solid rgb(56, 55, 55);
+    border-radius: 4px;
 }
 
 #email-label {
@@ -39,6 +41,8 @@ h1 {
     font-size: 20px;
     padding: 10px;
     margin-bottom: 15px;
+    border: 1px solid rgb(56, 55, 55);
+    border-radius: 4px;
 }
 
 #number-label {
@@ -50,6 +54,8 @@ h1 {
     padding: 10px;
     margin-bottom: 15px;
     text-align: left;
+    border: 1px solid rgb(56, 55, 55);
+    border-radius: 4px;
 }
 
 .row {
@@ -64,8 +70,71 @@ h1 {
 .field {
     width: 50%;
     text-align: left;
+    margin-left: 10px;
+
 }
 
-.field input {
+.field #age {
     width: 270px;
 }
+
+.field select {
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(224, 221, 221);
+    border: 1px solid rgb(56, 55, 55);
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.field .front {
+    display: block;
+    margin-top: 20px;
+}
+
+.field .back {
+    display: block;
+}
+
+.field .block {
+    display: block;
+}
+
+.field .visualization {
+    display: block;
+}
+
+.field .challenges {
+    display: block;
+}
+
+.community {
+    display: block;
+}
+
+.rooms {
+    display: block;
+}
+
+.submission input {
+    width: 150px;
+    background-color: rgb(4, 180, 224);
+    padding: 15px;
+    font-size: 25px;
+    color: #fff;
+    font-weight: 500;
+    border: #fff 1px solid;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.submission input:hover {
+    animation-name: background-color;
+    animation-fill-mode: forwards;
+}
+
+@keyframes background-color {
+    100% {
+        background-color: #0960ac;
+    }

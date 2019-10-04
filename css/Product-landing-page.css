@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(238, 237, 237);
+}
+
+header {
+    background-color: rgb(255, 178, 11);
+    border-bottom: 1px solid #466995;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    margin: 0 auto;
+}
+
+#header-img {
+    width: 25%;
+    height: 25%;
+    display: flex;
+}
+
+#nav-bar {
+    display: flex;
+    width: 100%;
+}
+
+ul {
+    margin: 30px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+li {
+    color: rgb(0, 0, 0)000;
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 350px;
+    text-align: right;
+}

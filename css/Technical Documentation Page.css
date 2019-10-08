@@ -1,0 +1,22 @@
+ * {
+     box-sizing: border-box;
+     font-family: sans-serif;
+ }
+
+ body {
+     margin: 0;
+ }
+
+ #navbar {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 400px;
+     height: 100%;
+     background-color: rgb(211, 214, 214);
+ }
+
+ #main-doc {
+     margin-left: 400px;
+     padding: 15px;
+ }

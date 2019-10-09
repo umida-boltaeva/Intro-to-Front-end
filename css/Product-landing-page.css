@@ -274,3 +274,8 @@ footer li {
     align-items: flex-end;
     justify-content: flex-end;
 }
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}

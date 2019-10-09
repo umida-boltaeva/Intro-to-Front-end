@@ -5,7 +5,7 @@ body {
 
 header {
     background-color: rgb(255, 178, 11);
-    position: relative;
+    position: fixed;
     width: 100%;
     z-index: 1;
     top: 0%;
@@ -47,6 +47,7 @@ h1 {
     font-size: 35px;
     font-family: Merriweather;
     padding: 20px;
+    margin-top: 130px;
 }
 
 #form {
@@ -218,7 +219,7 @@ p {
 
 @keyframes background-color {
     100% {
-        background-color: rgb(255, 178, 11);
+        background-color: darkorange;
     }
 }
 
@@ -254,4 +255,22 @@ footer li {
     padding-bottom: 15px;
     padding-top: 5px;
     margin-top: 0;
+}
+
+.with-icon {
+    display: flex;
+}
+
+.right {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.left {
+    width: 20%;
+    margin-top: 70px;
+    font-size: 20px;
+    color: darkorange;
+    align-items: flex-end;
+    justify-content: flex-end;
 }

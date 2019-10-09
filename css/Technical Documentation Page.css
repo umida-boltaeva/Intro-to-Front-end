@@ -14,6 +14,16 @@
      width: 400px;
      height: 100%;
      background-color: rgb(211, 214, 214);
+     display: flex;
+     flex-direction: column;
+ }
+
+ #navbar header {
+     font-size: 30px;
+     font-weight: 400;
+     align-items: center;
+     justify-content: center;
+     padding: 25px;
  }
 
  #main-doc {

@@ -81,9 +81,13 @@
                         its Document Object Model (DOM). For example, client-side extensions allow an application to
                         place elements on an HTML form and respond to user events such as mouse clicks, form input, and
                         page navigation.</li>
-
+                </ul>
+            </p>
+            <p>
+                <ul>
                     <li>Server-side JavaScript extends the core language by supplying objects relevant to running
-                        JavaScript on a server. For example, server-side extensions allow an application to communicate
+                        JavaScript on a server. For example, server-side extensions allow an application to
+                        communicate
                         with a database, provide continuity of information from one invocation to another of the
                         application, or perform file manipulations on a server.</li>
                 </ul>
@@ -96,11 +100,19 @@
             <p>This guide assumes you have the following basic background:
                 <ul>
                     <li>A general understanding of the Internet and the World Wide Web (WWW).</li>
-                    <li>Good working knowledge of HyperText Markup Language (HTML).</li>
-                    <li>Some programming experience. If you are new to programming, try one of the tutorials linked on
-                        the main page about JavaScript.</li>
                 </ul>
-            </p>
+                <p>
+                    <ul>
+                        <li>Good working knowledge of HyperText Markup Language (HTML).</li>
+                    </ul>
+                </p>
+                <p>
+                    <ul>
+                        <li>Some programming experience. If you are new to programming, try one of the tutorials linked
+                            on
+                            the main page about JavaScript.</li>
+                    </ul>
+                </p>
         </section>
 
         <section class="main-section">
@@ -215,14 +227,21 @@
                 <ul>
                     <li>Boolean. true and false.</li>
                     <li>null. A special keyword denoting a null value. Because JavaScript is case-sensitive, null is not
-                        the same as Null, NULL, or any other variant.</li>
+                        the
+                        same as Null, NULL, or any other variant.</li>
                     <li>undefined. A top-level property whose value is undefined.</li>
                     <li>Number. 42 or 3.14159.</li>
                     <li>String. "Howdy"</li>
                     <li>Symbol (new in ECMAScript 2015). A data type whose instances are unique and immutable.</li>
                 </ul>
-                <li>and Object</li>
             </ul>
+
+            </p>
+            <p>
+                <ul>
+                    <li>and Object</li>
+                </ul>
+            </p>
             <p>Although these data types are a relatively small amount, they enable you to perform useful functions with
                 your applications. Objects and functions are the other fundamental elements in the language. You can
                 think of objects as named containers for values, and functions as procedures that your application can
@@ -275,32 +294,51 @@
                     following values:
                     <ul>
                         <li>After the first pass: n = 1 and x = 1</li>
-                        <li>After the second pass: n = 2 and x = 3</li>
-                        <li>After the third pass: n = 3 and x = 6</li>
                     </ul>
-            </p>
-            <p>After completing the third pass, the condition n < 3 is no longer true, so the loop terminates.</p>
-                    </section> <section class="main-section">
-                    <header id="Function_declarations">Function declarations</header>
-                    <p>A function definition (also called a function declaration, or function statement) consists of the
-                        function keyword, followed by:
+                    <p>
                         <ul>
-                            <li>The name of the function.</li>
-                            <li>A list of arguments to the function, enclosed in parentheses and separated by commas.
-                            </li>
-                            <li>The JavaScript statements that define the function, enclosed in curly brackets, { }.
-                            </li>
+                            <li>After the second pass: n = 2 and x = 3</li>
                         </ul>
                     </p>
-                    <p>For example, the following code defines a simple function named square:</p>
-                    <p class="formula">function square(number) { return number * number; }</p>
-                    <p>The function square takes one argument, called number. The function consists of one statement
-                        that says to return the argument of the function (that is, number) multiplied by itself. The
-                        return statement specifies the value returned by the function.</p>
-                    <p class="formula">return number * number;</p>
-                    <p>Primitive parameters (such as a number) are passed to functions by value; the value is passed to
-                        the function, but if the function changes the value of the parameter, this change is not
-                        reflected globally or in the calling function.</p>
+                    <p>
+                        <ul>
+                            <li>After the third pass: n = 3 and x = 6</li>
+                        </ul>
+                    </p>
+                    <p>After completing the third pass, the condition n < 3 is no longer true, so the loop
+                            terminates.</p> </section> <section class="main-section">
+                            <header id="Function_declarations">Function declarations</header>
+                            <p>A function definition (also called a function declaration, or function statement)
+                                consists of the
+                                function keyword, followed by:
+                                <ul>
+                                    <li>The name of the function.</li>
+                                </ul>
+                            </p>
+                            <p>
+                                <ul>
+                                    <li>A list of arguments to the function, enclosed in parentheses and separated by
+                                        commas.</li>
+                                </ul>
+                            </p>
+                            <p>
+                                <ul>
+                                    <li>The JavaScript statements that define the function, enclosed in curly brackets,
+                                        { }.</li>
+                                </ul>
+                            </p>
+                            <p>For example, the following code defines a simple function named square:</p>
+                            <p class="formula">function square(number) { return number * number; }</p>
+                            <p>The function square takes one argument, called number. The function consists of one
+                                statement
+                                that says to return the argument of the function (that is, number) multiplied by itself.
+                                The
+                                return statement specifies the value returned by the function.</p>
+                            <p class="formula">return number * number;</p>
+                            <p>Primitive parameters (such as a number) are passed to functions by value; the value is
+                                passed to
+                                the function, but if the function changes the value of the parameter, this change is not
+                                reflected globally or in the calling function.</p>
         </section>
         <section class="main-section">
             <header id="Reference">Reference</header>

@@ -41,6 +41,7 @@
 
  #main-doc {
      margin-left: 330px;
+     margin-bottom: 150px;
      padding: 25px;
  }
 
@@ -60,7 +61,7 @@
      font-size: 15px;
      line-height: 30px;
      color: rgb(70, 71, 71);
-     background-color: rgb(221, 223, 223);
+     background-color: rgb(231, 233, 233);
      padding: 15px;
      border-radius: 4px;
  }

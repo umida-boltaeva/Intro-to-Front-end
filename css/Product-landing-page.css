@@ -42,6 +42,15 @@ li {
     text-align: right;
 }
 
+.nav-link a {
+    text-decoration: none;
+    color: rgb(0, 0, 0)000;
+}
+
+.nav-link a:hover {
+    color: rgb(0, 0, 0)000;
+}
+
 h1 {
     text-align: center;
     font-size: 35px;

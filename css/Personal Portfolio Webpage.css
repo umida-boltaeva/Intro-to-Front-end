@@ -35,7 +35,7 @@ li {
 li a {
     color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 35px;
+    padding: 36px;
 }
 
 li a:hover {
@@ -70,10 +70,16 @@ li a:hover {
 }
 
 #projects h2 {
-    font-weight: 700;
-    font-size: 60px;
-    margin-top: 450px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 50px;
     font-family: Varela-Round;
-    border-bottom: 1px solid #000;
+    margin: 0 auto;
+    padding-top: 130px;
+    color: #fff;
+}
+
+#projects {
+    background-color: rgb(34, 113, 150);
 }

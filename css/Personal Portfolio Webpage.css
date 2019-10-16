@@ -49,11 +49,11 @@ li a:hover {
 }
 
 #welcome-section h1 {
-    font-weight: 700;
+    font-weight: 600;
     font-size: 70px;
     padding-top: 450px;
     text-align: center;
-    font-family: Varela-Round;
+    font-family: Poppins;
     margin-bottom: 0;
     color: #fff;
 }
@@ -62,7 +62,7 @@ li a:hover {
     font-weight: normal;
     font-size: 40px;
     text-align: center;
-    font-family: Varela-Round;
+    font-family: Poppins;
     font-style: italic;
     color: rgb(224, 18, 63);
     margin: 0 auto;
@@ -72,8 +72,8 @@ li a:hover {
 #projects h2 {
     text-align: center;
     font-weight: 600;
-    font-size: 50px;
-    font-family: Varela-Round;
+    font-size: 40px;
+    font-family: Poppins;
     color: #fff;
     margin-bottom: 10px;
 }
@@ -86,7 +86,7 @@ li a:hover {
     margin: 0 auto 50px;
     padding-top: 130px;
     width: 40%;
-    border-bottom: solid 1px #fff;
+    border-bottom: solid 3px #fff;
 }
 
 .project-tile {
@@ -103,12 +103,6 @@ figure {
     width: 400px;
 }
 
-.figure a {
-    padding: 12px;
-    width: 100%;
-    text-decoration: none;
-}
-
 .project-image {
     height: 400px;
     width: 400px;
@@ -120,6 +114,28 @@ figure {
     font-size: 20px;
     font-family: Poppins;
     font-weight: 400;
+    margin-bottom: 40px;
+}
 
+.image-title a {
+    text-decoration: none;
+    color: #fff;
+}
 
+.project-tile2 {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.box-5 p a {
+    padding: 25px 80px 14px;
+}
+
+.box-1 p a {
+    padding: 25px 90px 14px;
+}
+
+.box-2 p a {
+    padding: 25px 138px 14px;
 }

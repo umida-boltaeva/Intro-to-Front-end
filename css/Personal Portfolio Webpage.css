@@ -46,6 +46,9 @@ li a:hover {
 #welcome-section {
     background-color: rgb(10, 10, 10);
     background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    width: 100%;
+    height: 95vh;
+
 }
 
 #welcome-section h1 {
@@ -66,8 +69,9 @@ li a:hover {
     font-style: italic;
     color: rgb(224, 18, 63);
     margin: 0 auto;
-    padding-bottom: 400px;
 }
+
+/* 2nd section */
 
 #projects h2 {
     text-align: center;
@@ -136,24 +140,54 @@ figure {
     padding: 20px 0 115px;
 }
 
-#submit {
+.button a {
     font-family: Poppins;
     font-size: 20px;
-    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
     color: #fff;
-    padding: 10px 30px;
+    padding: 15px 35px;
+    border-radius: 3px;
+    text-decoration: none;
 }
 
-#submit:hover {
-    animation-name: background-image;
-    animation-fill-mode: forwards;
-    animation-duration: 0.2;
+.button a:hover {
+    background: rgb(224, 18, 63);
     cursor: pointer;
+    animation-name: background;
+    animation-duration: 0.5s;
 }
 
-@keyframes background-image {
-    100% {
-        background-image: rgb(224, 18, 63);
+@keyframes background {
+    from {
+        background: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+    }
+
+    to {
+        background: rgb(224, 18, 63);
+    }
+}
+
+.button a i.fa-chevron-right {
+    padding-left: 0;
+    padding-right: 3px;
+}
+
+.button a:hover i.fa-chevron-right {
+    padding-left: 3px;
+    padding-right: 0;
+    animation-name: right;
+    animation-duration: 1s;
+}
+
+@keyframes right {
+    from {
+        padding-left: 0;
+        padding-right: 3px;
+    }
+
+    to {
+        padding-left: 3px;
+        padding-right: 0;
     }
 }
 
@@ -161,13 +195,11 @@ figure {
 #link {
     width: 100%;
     height: 880px;
-    display: flex;
     justify-content: center;
     background-color: rgb(47, 57, 66);
-
 }
 
-footer h1 {
+#link h1 {
     font-weight: 500;
     font-size: 60px;
     padding-top: 220px;
@@ -176,23 +208,79 @@ footer h1 {
     margin-bottom: 0;
     color: #fff;
     letter-spacing: 2px;
+    margin: 0 auto;
 }
 
-footer p {
+#link p {
     font-weight: lighter;
     font-size: 20px;
     text-align: center;
     font-family: Poppins;
-    font-style: italic;
     color: #fff;
     margin: 0 auto;
+    padding-bottom: 50px;
 }
 
-footer a {
+#question {
+    font-style: italic;
+}
+
+#link a {
     display: inline-block;
     text-align: center;
     text-decoration: none;
     color: #fff;
     font-family: Poppins;
     font-size: 20px;
+
+}
+
+.with-icon {
+    border-bottom: 4px solid rgb(224, 18, 63);
+    width: 100%;
+    text-align: center;
+    padding-bottom: 280px;
+}
+
+.with-icon a {
+    padding: 20px;
+    font-size: 25px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer p {
+    margin: 0 auto;
+    padding: 45px 50px;
+}
+
+span.tag {
+    color: orange;
+    opacity: 0;
+}
+
+.box a:hover span.tag {
+    opacity: 1;
+}
+
+.box a:hover span.tag {
+    animation-name: opacity;
+    animation-duration: 1s;
+}
+
+@keyframes opacity {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+i.fa-free-code-camp {
+    padding: 5px;
 }

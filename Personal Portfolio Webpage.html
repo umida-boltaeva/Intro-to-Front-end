@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/Personal Portfolio Webpage.css" />
+    <link rel="stylesheet" href="include/fontawesome/css/all.min.css">
     <link
         href="https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i|Varela+Round&display=swap"
         rel="stylesheet">
@@ -41,7 +42,11 @@
                     <figure>
                         <img class="project-image"
                             src="https://drive.google.com/uc?id=1-Hg70BxPZff8_1BFyTt_RnIfFNhFDpKg" alt="project">
-                        <figcaption class="image-title">Product Landing Page</figcaption>
+                        <figcaption class="image-title">
+                            <span class="tag tag-open">
+                                <</span> Product Landing Page <span class="tag tag-close">/>
+                            </span>
+                        </figcaption>
                     </figure>
                 </a>
             </div>
@@ -51,21 +56,27 @@
                     <figure>
                         <img class="project-image"
                             src="https://drive.google.com/uc?id=15pCbUcWwQHBkYqkF7pOn1GOjhy1XenU7" alt="project">
-                        <figcaption class="image-title">Survey Form</figcaption>
+                        <figcaption class="image-title">
+                            <span class="tag tag-open">
+                                <</span> Survey Form <span class="tag tag-close">/>
+                            </span>
+                        </figcaption>
                     </figure>
                 </a>
             </div>
-            <!-- TODO: correct other box components like below -->
             <div class="box">
                 <a href="https://codepen.io/Boltaeva/pen/dyyyBZp" target="_blank">
                     <figure>
                         <img class="project-image"
                             src="https://drive.google.com/uc?id=1A98J8mlSf8qJDptIXLUdLYw0CDlUIqWI" alt="project">
-                        <figcaption class="image-title">Tribute Page</figcaption>
+                        <figcaption class="image-title">
+                            <span class="tag tag-open">
+                                <</span> Tribute Page <span class="tag tag-close">/>
+                            </span>
+                        </figcaption>
                     </figure>
                 </a>
             </div>
-            <!-- END TODO -->
         </div>
 
         <div class="project-tile">
@@ -74,7 +85,11 @@
                     <figure>
                         <img class="project-image"
                             src="https://drive.google.com/uc?id=12r9EV5k6MitgrwMyMIYGCGl3-_EnAARc" alt="project">
-                        <figcaption class="image-title">City Blog</figcaption>
+                        <figcaption class="image-title">
+                            <span class="tag tag-open">
+                                <</span> City Blog <span class="tag tag-close">/>
+                            </span>
+                        </figcaption>
                     </figure>
                 </a>
             </div>
@@ -84,7 +99,11 @@
                     <figure>
                         <img class="project-image"
                             src="https://drive.google.com/uc?id=1wbsv-J-o59u_waalmkBDoVHrzKpiCNBv" alt="project">
-                        <figcaption class="image-title">Olivia Woodruff Portfolio</figcaption>
+                        <figcaption class="image-title">
+                            <span class="tag tag-open">
+                                <</span> Olivia Woodruff Portfolio <span class="tag tag-close">/>
+                            </span>
+                        </figcaption>
                     </figure>
                 </a>
             </div>
@@ -94,31 +113,34 @@
                     <figure>
                         <img class="project-image"
                             src="https://drive.google.com/uc?id=1RSFMoxGe_IUAFtmRYNVzRkGJAuh6ijIO" alt="project">
-                        <figcaption class="image-title">Davieʻs Burger Form</figcaption>
+                        <figcaption class="image-title">
+                            <span class="tag tag-open">
+                                <</span> Davieʻs Burger Form <span class="tag tag-close">/>
+                            </span>
+                        </figcaption>
                     </figure>
                 </a>
             </div>
         </div>
         </div>
         <div class="button">
-            <a href="#"><input type="submit" class="btn" id="submit" value="Show all" /></a>
+            <a href="#">Show all &nbsp;<i class="fas fa-chevron-right"></i></a>
         </div>
     </section>
     <section id="link">
-        <footer>
-            <h1>Let's work together...</h1>
-            <p>How do you take your coffee?</p>
-            <p>
-                <a href="#">Facebook</a>
-                <a href="#">GitHub</a>
-                <a href="#">Twitter</a>
-                <a href="#">Send a mail</a>
-                <a href="#">Call me</a>
-            </p>
-        </footer>
-        <div>
-
+        <h1>Let's work together...</h1>
+        <p id="question">How do you take your coffee?</p>
+        <div class="with-icon">
+            <a href="#"><i class="fab fa-facebook-square"></i> Facebook</a>
+            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+            <a href="#"><i class="fab fa-twitter-square"></i> Twitter</a>
+            <a href="#"><i class="fas fa-at"></i> Send a mail</a>
+            <a href="#"><i class="fas fa-mobile-alt"></i> Call me</a>
         </div>
+        <footer class="copyright">
+            <p>**This is just a fake portfolio. All the projects and contact details given are not real.</p>
+            <p>© Created for freeCodeCamp<i class="fab fa-free-code-camp"></i></p>
+        </footer>
     </section>
 </body>
 
